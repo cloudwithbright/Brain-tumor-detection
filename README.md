@@ -38,3 +38,6 @@ A restfull API will be created for the model and deployed on Google Cloud taking
   * Docker
   * gcloud
   * gsutil
+
+To deploy the application, give the scripts.sh permission using `chmod +x scripts.sh` then deploy your application by runing `./scripts.sh`.
+
