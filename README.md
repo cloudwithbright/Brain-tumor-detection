@@ -26,6 +26,9 @@ A machine learning model to help identify brain tumor. This model will be apple 
 # Dataset
 The dataset can be located at kaggle. Click on the link to be directed to the datasets repository. [Link to datasets](https://www.kaggle.com/ahmedhamada0/brain-tumor-detection)
 
+# Link to notebook
+The notebook can also be located in modules folder. Click on the link to be redirected to the module [Link to notebook](https://github.com/debcloud/Brain-tumor-detection/blob/main/modules/tumor.ipynb)
+
 # Deployment
 A restfull API will be created for the model and deployed on Google Cloud taking advantage of its serverless container engine(Cloudrun) All using automation script.
 
