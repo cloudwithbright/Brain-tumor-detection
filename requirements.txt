@@ -1,0 +1,10 @@
+tensorflow-estimator==2.6.0
+Keras-Preprocessing==1.1.2
+tensorflow==2.6.0
+requests==2.25.1
+opencv-python
+Jinja2==3.0.1
+Keras==2.6.0
+Flask==2.0.1
+Pillow
+numpy==1.19.2
