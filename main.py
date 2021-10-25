@@ -3,6 +3,7 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 import cv2
+import os
 
 #import flask libries
 from flask import Flask, render_template, request
@@ -60,7 +61,7 @@ def predict():
     #Load in model and make predictions
     my_model = tf.keras.models.load_model(model)
     results = evaluate_models(image_path, my_model)
-    # results="Owusu"
+    
     return render_template("index.html", results=results, image_path=image_path)
     
 if __name__ == "__main__":
